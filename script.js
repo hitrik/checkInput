@@ -5,8 +5,8 @@ jQuery(function() {
 		"phone": /\d{5,11}/gm
 	};
 	var errs = {
-		"string" : "Поле должно содержать символы",
-		"phone": "Введите корректный телефон",
+		"string" : "РџРѕР»Рµ РґРѕР»Р¶РЅРѕ СЃРѕРґРµСЂР¶Р°С‚СЊ СЃРёРјРІРѕР»С‹",
+		"phone": "Р’РІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅС‹Р№ С‚РµР»РµС„РѕРЅ",
 		"errors": []
 	};
 	var testExpr = function(str, regExp) {
@@ -38,7 +38,7 @@ jQuery(function() {
 			fields.each(function(i, item) {
 				$(item).val("");
 			});
-			$(".errors").html("Все четко, данные улетели.");
+			$(".errors").html("Р’СЃРµ С‡РµС‚РєРѕ, РґР°РЅРЅС‹Рµ СѓР»РµС‚РµР»Рё.");
 		}
 	};
 	//test click
